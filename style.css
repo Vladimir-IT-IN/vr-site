@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat';
+}
+ul {
+	list-style: none;
+	display: flex;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.intro-section {
+	width: 100%;
+	height: 800px;
+	background: url('image/back-intro.jpg') center no-repeat;
+	background-size: cover;
+}
+.header {
+	padding: 30px 0;
+}
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo img {
+	max-width: 50%;
+}
+.nav-link {
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	
+	padding: 20px 10px;
+	margin: 0 20px;
+	text-decoration: none;
+}
+.nav-link:hover {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+/* txt ---- */
+.txt-on-intro {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 40px 0;
+}
+.left-txt {
+	width: 500px;
+	color: #fff;
+}
+.h3-txt {
+	font-size: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.h1-txt {
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.buy-p {
+	display: inline-block;
+	font-size: 30px;
+	padding: 20px;
+	text-transform: uppercase;
+	
+	cursor: pointer;
+}
+.buy-p img {
+	width: 30px;
+	margin: 0 0 -5px 15px;
+}
+.buy-p:hover {
+	background: #000;
+	transition: .1s;
+	border-radius: 15px;
+}
+.right-txt {
+	text-align: right;
+	color: #fff;
+	width: 300px;
+}
+.right-p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	opacity: 0.75;
+}
+.right-p:hover {
+	opacity: 1;
+	transition: .1s;
+}
+.contact-block {
+	text-align: right;
+}
+.contact-block img {
+	margin: 10px;
+}
+
+
+.info-section {
+	width: 100%;
+	padding: 30px 0;
+}
+.info-flex {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+}
+.info-block {
+	text-align: center;
+	margin: 20px auto;
+	padding: 30px 0;
+}
+.info-block:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: .1s;
+}
+.info-block img {
+	width: 350px;
+	height: 250px;
+}
+.info-p1 {
+	font-weight: 700;
+	font-size: 24px;
+}
+.info-p2 {
+	font-size: 20px;
+}
+.info-btn {
+	display: inline-block;
+	
+	padding: 20px;
+	margin: 20px 0;
+	
+	font-weight: 700;
+	font-size: 24px;
+	border: 1px solid #000;
+	
+	cursor: pointer;
+}
+.info-btn:hover {
+	color: #fff;
+	background: #000;
+	transition: .1s;
+}
+
+@media (max-width: 1000px) {
+	.txt-on-intro {
+		display: block;
+		text-align: center;
+	}
+	.info-flex {
+		display: block;
+	}
+}
+.footer {
+	width: 100%;
+	padding: 5px 0;
+	background: #000;
+}
+.footer-p {
+	text-align: center;
+	color: #fff;
+	opacity: 0.5;
+}
